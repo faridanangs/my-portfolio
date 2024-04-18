@@ -1,5 +1,7 @@
 import HerroSection from "@/components/HerroSection";
 import Navbar from "@/components/Navbar";
+import Project from "@/components/Project";
+import Skill from "@/components/Skill";
 
 export default function Home() {
   return (
@@ -9,7 +11,11 @@ export default function Home() {
           <Navbar />
           <HerroSection />
         </div>
-        <div className="h-10 md:h-20 xl:h-20 bg-gradient-to-t from-black absolute -bottom-5 left-0 xl:bottom-0 w-full"></div>
+        <div className="h-10 md:h-20 xl:h-20 bg-gradient-to-t from-black absolute -bottom-5 left-0 xl:bottom-0 w-full" />
+      </div>
+      <div className="max-w-7xl mx-auto px-3 md:px-8">
+        <Skill />
+        <Project />
       </div>
     </main>
   );
