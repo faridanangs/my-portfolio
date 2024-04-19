@@ -3,190 +3,205 @@ import React, { useState } from 'react'
 import { HoverEffect } from './ui/card-hover-effect'
 import { SiAstro, SiBootstrap, SiCss3, SiDaisyui, SiFramer, SiHtml5, SiJavascript, SiMocha, SiNextdotjs, SiReact, SiTailwindcss } from 'react-icons/si';
 import { BiHardHat } from "react-icons/bi"
-import Html from "../../public/html.png"
 import { fontRobonto } from './Foonts';
 import { HoverBorderGradient } from './ui/hover-border-gradient';
+
+// skills icon
+import Html from "../../public/skils/web2/html.webp"
+import Css from "../../public/skils/web2/css.webp"
+import Tailwind from "../../public/skils/web2/tailwind.webp"
+import Bootstrap from "../../public/skils/web2/bootstrap-framework-logo.webp"
+import Framer from "../../public/skils/web2/framer.webp"
+import Docker from "../../public/skils/web2/docker.webp"
+import Git from "../../public/skils/web2/git.webp"
+import Github from "../../public/skils/web2/github.webp"
+import Golang from "../../public/skils/web2/golang.webp"
+import Javascript from "../../public/skils/web2/javascript.webp"
+import Mysql from "../../public/skils/web2/mysql.webp"
+import Postgres from "../../public/skils/web2/postgre.webp"
+import Python from "../../public/skils/web2/python.webp"
+import ReactIcon from "../../public/skils/web2/react.webp"
+import Redis from "../../public/skils/web2/redis.webp"
+import Nginx from "../../public/skils/web2/nginx.svg"
+import Websocket from "../../public/skils/web2/websocket.svg"
+import Astro from "../../public/skils/web2/astro.svg"
+import Nextjs from "../../public/skils/web2/nextjs.svg"
+import Django from "../../public/skils/web2/django.svg"
+import ApiLol from "../../public/skils/web2/api.webp"
+import Fiber from "../../public/skils/web2/fiber.svg"
+import Gin from "../../public/skils/web2/gin.svg"
+import Gorm from "../../public/skils/web2/gorm.webp"
+import Linux from "../../public/skils/web2/linux.webp"
+import Grpc from "../../public/skils/web2/grpc.svg"
+import Redux from "../../public/skils/web2/redux.svg"
+
+// erb3
+import Solidity from "../../public/skils/web3/solidity.svg"
+import OpnZplin from "../../public/skils/web3/opnzplin.svg"
+import Ipfs from "../../public/skils/web3/ipfs.svg"
+import Hardhat from "../../public/skils/web3/helmet.webp"
+import Geth from "../../public/skils/web3/geth.webp"
+import Chai from "../../public/skils/web3/chai.webp"
+import Uniswap from "../../public/skils/web3/uniswap.webp"
+import Ethers from "../../public/skils/web3/ethers.svg"
+import Metamask from "../../public/skils/web3/metamask.svg"
+import Chainlink from "../../public/skils/web3/chainlink.svg"
+
+
 
 const Skill = () => {
   const [pilihan, setPilihan] = useState('web2')
   const skillsWeb2 = [
     {
       text: "HTML",
-      // icon: SiHtml5,
       icon: Html,
     },
     {
       text: "CSS",
-      // icon: SiCss3,
-      icon: Html,
+      icon: Css,
     },
     {
       text: "Tailwind",
-      // icon: SiTailwindcss,
-      icon: Html,
+      icon: Tailwind,
     },
     {
       text: "Framer",
-      // icon: SiFramer,
-      icon: Html,
+      icon: Framer,
     },
     {
       text: "Bootstrap",
-      // icon: SiBootstrap,
-      icon: Html,
+      icon: Bootstrap,
     },
     {
       text: "Javascript",
-      // icon: SiJavascript,
-      icon: Html,
+      icon: Javascript,
     },
     {
       text: "ReactJS",
-      // icon: SiReact,
-      icon: Html,
+      icon: ReactIcon,
+    },
+    {
+      text: "ReduxJS",
+      icon: Redux,
     },
     {
       text: "NextJS",
-      // icon: SiNextdotjs,
-      icon: Html,
+      icon: Nextjs,
     },
     {
       text: "AstroJS",
-      // icon: SiAstro,
-      icon: Html,
+      icon: Astro,
     },
     {
       text: "Golang",
-      // icon: Html,
-      icon: Html,
+      icon: Golang,
     },
     {
       text: "GoFiber",
-      // icon: Html,
-      icon: Html,
+      icon: Fiber,
     },
     {
       text: "GoGin",
-      // icon: Html,
-      icon: Html,
+      icon: Gin,
     },
     {
       text: "Gorm",
-      // icon: Html,
-      icon: Html,
+      icon: Gorm,
     },
     {
       text: "Python",
-      // icon: Html,
-      icon: Html,
+      icon: Python,
     },
     {
       text: "Django",
-      // icon: Html,
-      icon: Html,
+      icon: Django,
     },
     {
       text: "gRPC",
-      // icon: Html,
-      icon: Html,
+      icon: Grpc,
     },
     {
       text: "RestApi",
-      // icon: Html,
-      icon: Html,
+      icon: ApiLol,
     },
     {
       text: "Websocket",
-      // icon: Html,
-      icon: Html,
+      icon: Websocket,
     },
     {
       text: "Redis",
-      // icon: Html,
-      icon: Html,
+      icon: Redis,
     },
     {
       text: "PostgreSQL",
-      // icon: Html,
-      icon: Html,
+      icon: Postgres,
     },
     {
       text: "Mysql",
-      // icon: Html,
-      icon: Html,
+      icon: Mysql,
     },
     {
       text: "Git",
-      // icon: Html,
-      icon: Html,
+      icon: Git,
     },
     {
       text: "Github",
-      // icon: Html,
-      icon: Html,
+      icon: Github,
     },
     {
       text: "Docker",
-      // icon: Html,
-      icon: Html,
+      icon: Docker,
     },
     {
       text: "Nginx",
-      // icon: Html,
-      icon: Html,
+      icon: Nginx,
+    },
+    {
+      text: "Linux",
+      icon: Linux,
     },
   ];
 
   const skillsWeb3 = [
     {
       text: "EtherJS",
-      // icon: SiDaisyui,
-      icon: Html,
+      icon: Ethers,
     },
     {
       text: "HardhatJS",
-      // icon: SiDaisyui,
-      icon: Html,
+      icon: Hardhat,
     },
     {
-      text: "MochaJS",
-      // icon: Html,
-      icon: Html,
+      text: "ChaiJS",
+      icon: Chai,
     },
     {
       text: "Metamask",
-      // icon: Html,
-      icon: Html,
+      icon: Metamask,
     },
     {
       text: "Solidity",
-      // icon: Html,
-      icon: Html,
+      icon: Solidity,
     },
     {
       text: "Uniswap",
-      // icon: Html,
-      icon: Html,
+      icon: Uniswap,
     },
     {
       text: "OpnZpplin",
-      // icon: Html,
-      icon: Html,
-    },
-    {
-      text: "Evm",
-      // icon: Html,
-      icon: Html,
+      icon: OpnZplin,
     },
     {
       text: "Geth",
-      // icon: Html,
-      icon: Html,
+      icon: Geth,
     },
     {
       text: "Ipfs",
-      // icon: Html,
-      icon: Html,
+      icon: Ipfs,
+    },
+    {
+      text: "Chainlink",
+      icon: Chainlink,
     },
   ]
 
