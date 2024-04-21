@@ -4,6 +4,7 @@ import React from 'react'
 import myImage from "../../public/foto-pasdi-wc.webp"
 import { MovingBorderBtn } from './ui/moving-border'
 import { HoverBorderGradient } from './ui/hover-border-gradient'
+import { fontRobonto } from './Foonts'
 
 const HerroSection = () => {
     return (

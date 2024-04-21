@@ -1,8 +1,6 @@
 'use client'
 import React, { useState } from 'react'
 import { HoverEffect } from './ui/card-hover-effect'
-import { SiAstro, SiBootstrap, SiCss3, SiDaisyui, SiFramer, SiHtml5, SiJavascript, SiMocha, SiNextdotjs, SiReact, SiTailwindcss } from 'react-icons/si';
-import { BiHardHat } from "react-icons/bi"
 import { fontRobonto } from './Foonts';
 import { HoverBorderGradient } from './ui/hover-border-gradient';
 
@@ -35,7 +33,7 @@ import Linux from "../../public/skils/web2/linux.webp"
 import Grpc from "../../public/skils/web2/grpc.svg"
 import Redux from "../../public/skils/web2/redux.svg"
 
-// erb3
+// web3
 import Solidity from "../../public/skils/web3/solidity.svg"
 import OpnZplin from "../../public/skils/web3/opnzplin.svg"
 import Ipfs from "../../public/skils/web3/ipfs.svg"
@@ -222,7 +220,7 @@ const Skill = () => {
               as="button"
               className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
             >
-              <h1 onClick={() => setPilihan('web2')} className=' font-bold hover:scale-[1.02] text-sm '>Web2 & Fullstack</h1>
+              <h1 onClick={() => setPilihan('web2')} className={`font-bold text-sm ${pilihan === 'web2' && 'text-purple-300 scale-110' }`}>Web2 & Fullstack</h1>
             </HoverBorderGradient>
           </div>
           <div>
@@ -231,11 +229,11 @@ const Skill = () => {
               as="button"
               className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
             >
-              <h1 onClick={() => setPilihan('web3')} className=' font-bold hover:scale-[1.02] text-sm '>Web3 & Blockchain</h1>
+              <h1 onClick={() => setPilihan('web3')} className={`font-bold text-sm  ${pilihan === 'web3' && 'text-purple-300 scale-110' }`}>Web3 & Blockchain</h1>
             </HoverBorderGradient>
           </div>
         </div>
-        <div className="mt-8">
+        <div className="mt-8 overflow-y-scroll max-h-[70vh] ::- ">
           {
             pilihan === 'web2' ? (
               <div>

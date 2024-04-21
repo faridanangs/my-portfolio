@@ -4,17 +4,17 @@ import { SiFacebook, SiGithub, SiLinkedin } from "react-icons/si"
 
 const Navbar = () => {
     const sosials = [{
-        link: "https://www.linkedin.com/",
+        link: "https://www.linkedin.com/in/farid-anang-samudra-95292726a//",
         label: "LinkedIn",
         icon: SiLinkedin,
     },
     {
-        link: "https://www.linkedin.com/",
+        link: "https://github.com/faridanangs",
         label: "Github",
         icon: SiGithub,
     },
     {
-        link: "https://www.linkedin.com/",
+        link: "https://www.facebook.com/Tempnion7/",
         label: "Facebook",
         icon: SiFacebook,
     }

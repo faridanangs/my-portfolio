@@ -1,3 +1,5 @@
+import { Experince } from "@/components/Experience";
+import Footer from "@/components/Footer";
 import HerroSection from "@/components/HerroSection";
 import Navbar from "@/components/Navbar";
 import Project from "@/components/Project";
@@ -16,6 +18,8 @@ export default function Home() {
       <div className="max-w-7xl mx-auto px-3 md:px-8">
         <Skill />
         <Project />
+        {/* <Experince /> */}
+        {/* <Footer /> */}
       </div>
     </main>
   );
