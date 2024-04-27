@@ -5,6 +5,8 @@ import { fontRobonto } from './Foonts'
 import { CardBody, CardContainer, CardItem } from './ui/3d-card'
 import Link from "next/link";
 import Image from "next/image";
+
+// web2
 import defiIco from "../../public/projects/defi-ico.webp";
 import defiTracker from "../../public/projects/defi-tracker.webp";
 import agency from "../../public/projects/agency-project.webp";
@@ -16,6 +18,14 @@ import lingkungan from "../../public/projects/lingkungan.webp";
 import dTodo from "../../public/projects/d-todo.webp";
 import socialMedia from "../../public/projects/social-media.webp";
 
+// web3
+import gaslessToken from "../../public/projects/smartcontract/gaslesstoken.webp";
+import swap from "../../public/projects/smartcontract/swap.webp";
+import voting from "../../public/projects/smartcontract/voting.webp";
+import exchange from "../../public/projects/smartcontract/exchange.webp";
+
+// cli
+import gosimpleconfig from "../../public/projects/cli/gocli.webp"
 
 const Project = () => {
   const [pilihan, setPilihan] = useState('web')
@@ -24,43 +34,83 @@ const Project = () => {
     {
       title: "DeFi-App Ico",
       image: defiIco,
+      link: "https://github.com/faridanangs/dapp-ICO-daulat/blob/main/README.md",
     },
     {
       title: "DeFi-App Tracker Account",
       image: defiTracker,
+      link: "https://github.com/faridanangs/defi-account-tracker",
+      showDemo: "https://defi-account-tracker.vercel.app/"
     },
     {
       title: "De-Exchange Web-App",
       image: dExchange,
+      link: "https://github.com/faridanangs/dapp-ICO-daulat/blob/main/README.md",
     },
     {
       title: "De-Todo Web-App",
       image: dTodo,
+      link: "https://github.com/faridanangs/dapp-ICO-daulat/blob/main/README.md",
     },
     {
       title: "Landing page Web-App",
       image: agency,
+      link: "https://github.com/faridanangs/dapp-ICO-daulat/blob/main/README.md",
+      showDemo: "https://defi-account-tracker.vercel.app/"
     },
     {
       title: "Alqurannte Web-App",
       image: alQuran,
+      link: "https://github.com/faridanangs/dapp-ICO-daulat/blob/main/README.md",
+      showDemo: "https://defi-account-tracker.vercel.app/"
     },
     {
       title: "E-Pizza Web-App",
       image: eFizza,
+      link: "https://github.com/faridanangs/dapp-ICO-daulat/blob/main/README.md",
+      showDemo: "https://defi-account-tracker.vercel.app/"
     },
     {
       title: "E-Tembeli Web-App",
       image: eZone,
+      link: "https://github.com/faridanangs/dapp-ICO-daulat/blob/main/README.md",
+      showDemo: "https://defi-account-tracker.vercel.app/"
     },
     {
       title: "Rawat Lingkungan Web-App",
       image: lingkungan,
+      link: "https://github.com/faridanangs/dapp-ICO-daulat/blob/main/README.md",
     },
     {
       title: "Fa social media Web-App",
       image: socialMedia,
+      link: "https://github.com/faridanangs/dapp-ICO-daulat/blob/main/README.md",
     },
+  ]
+  const smartcontracts = [
+    {
+      title: "Voting Smart Contract",
+      image: voting,
+    },
+    {
+      title: "Gasless Transfer Token Smart Contract",
+      image: gaslessToken,
+    },
+    {
+      title: "Swap Smart Contract",
+      image: swap,
+    },
+    {
+      title: "Exchange Smart Contract",
+      image: exchange,
+    },
+  ]
+  const cli = [
+    {
+      title: "Go Simple Cli",
+      image: gosimpleconfig,
+      link: "https://github.com/faridanangs/go-cli-app",
+    }
   ]
 
   return (
@@ -80,7 +130,7 @@ const Project = () => {
               as="button"
               className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
             >
-              <h1 onClick={() => setPilihan('web')} className=' font-bold hover:scale-[1.02] text-sm '>Web</h1>
+              <h1 onClick={() => setPilihan('web')} className={` ${pilihan === "web" && "text-purple-300"} font-bold hover:scale-[1.02] text-sm `}>Web</h1>
             </HoverBorderGradient>
           </div>
           <div>
@@ -89,7 +139,7 @@ const Project = () => {
               as="button"
               className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
             >
-              <h1 onClick={() => setPilihan('smart-contract')} className=' font-bold hover:scale-[1.02] text-sm '>Smart Contract</h1>
+              <h1 onClick={() => setPilihan('smart-contract')} className={` ${pilihan === "smart-contract" && "text-purple-300"} font-bold hover:scale-[1.02] text-sm `}>Smart Contract</h1>
             </HoverBorderGradient>
           </div>
           <div>
@@ -98,7 +148,7 @@ const Project = () => {
               as="button"
               className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
             >
-              <h1 onClick={() => setPilihan('api')} className=' font-bold hover:scale-[1.02] text-sm '>Api</h1>
+              <h1 onClick={() => setPilihan('api')} className={` ${pilihan === "api" && "text-purple-300"} font-bold hover:scale-[1.02] text-sm `}>Api</h1>
             </HoverBorderGradient>
           </div>
           <div>
@@ -107,7 +157,7 @@ const Project = () => {
               as="button"
               className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
             >
-              <h1 onClick={() => setPilihan('cli')} className=' font-bold hover:scale-[1.02] text-sm '>Cli</h1>
+              <h1 onClick={() => setPilihan('cli')} className={`${pilihan === "cli" && "text-purple-300"} font-bold hover:scale-[1.02] text-sm `}>Cli</h1>
             </HoverBorderGradient>
           </div>
         </div>
@@ -136,32 +186,114 @@ const Project = () => {
                   <div className="mt-6">
                     <CardItem
                       translateZ={20}
-                      as={Link}
-                      href="#"
                       target="__blank"
                       className="px-2 md:px-4 md:py-2 rounded-xl text-xs font-normal dark:text-white flex justify-between"
                     >
-                      <HoverBorderGradient
-                        containerClassName="rounded-full"
-                        as="button"
-                        className="dark:bg-black bg-white text-black dark:text-white flex items-center"
-                      >
-                        <h1 className='font-bold hover:scale-[1.02] text-sm'>getCode →</h1>
-                      </HoverBorderGradient>
-
-                      <HoverBorderGradient
-                        containerClassName="rounded-full"
-                        as="button"
-                        className="dark:bg-black bg-white text-black dark:text-white flex items-center"
-                      >
-                        <h1 className=' font-bold hover:scale-[1.02] text-sm '>showDemo →</h1>
-                      </HoverBorderGradient>
+                      <Link href={item.link}>
+                        <HoverBorderGradient
+                          containerClassName="rounded-full"
+                          as="button"
+                          className="dark:bg-black bg-white text-black dark:text-white flex items-center"
+                        >
+                          <h1 className='font-bold hover:scale-[1.02] text-sm'>getCode →</h1>
+                        </HoverBorderGradient></Link>
+                      {
+                        item.showDemo &&
+                        <HoverBorderGradient
+                          containerClassName="rounded-full"
+                          as="button"
+                          className="dark:bg-black bg-white text-black dark:text-white flex items-center"
+                        >
+                          <h1 className=' font-bold hover:scale-[1.02] text-sm '>showDemo →</h1>
+                        </HoverBorderGradient>
+                      }
                     </CardItem>
                   </div>
                 </CardBody>
               </CardContainer>
             ))
-          ) : ("")
+          ) : (
+            pilihan === "smart-contract" ? (
+              smartcontracts?.map((item, i) => (
+                <CardContainer className="inter-var w-full" key={i}>
+                  <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full min-w-[10rem] h-auto rounded-xl border-4 p-6">
+                    <CardItem
+                      translateZ="50"
+                      className="text-xl font-bold text-neutral-600 dark:text-white"
+                    >
+                      {item.title}
+                    </CardItem>
+                    <CardItem translateZ="100" className="w-full mt-4">
+                      <Image
+                        src={item.image}
+                        height={1000}
+                        width={1000}
+                        className="h-44 sm:h-72 md:h-[440px] lg:h-72 w-full object-cover object-center rounded-xl group-hover/card:shadow-xl"
+                        alt={item.title}
+                      />
+                    </CardItem>
+                    <div className="mt-6">
+                      <CardItem
+                        translateZ={20}
+                        target="__blank"
+                        className="px-2 md:px-4 md:py-2 rounded-xl text-xs font-normal dark:text-white flex justify-between"
+                      >
+                        <HoverBorderGradient
+                          containerClassName="rounded-full"
+                          as="button"
+                          className="dark:bg-black bg-white text-black dark:text-white flex items-center"
+                        >
+                          <h1 className='font-bold hover:scale-[1.02] text-sm'>getCode →</h1>
+                        </HoverBorderGradient>
+                        {
+                        }
+                      </CardItem>
+                    </div>
+                  </CardBody>
+                </CardContainer>
+              )
+              )) : (
+              pilihan === "cli" ? (
+                cli?.map((item, i) => (
+                  <CardContainer className="inter-var w-full" key={i}>
+                    <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full min-w-[10rem] h-auto rounded-xl border-4 p-6">
+                      <CardItem
+                        translateZ="50"
+                        className="text-xl font-bold text-neutral-600 dark:text-white"
+                      >
+                        {item.title}
+                      </CardItem>
+                      <CardItem translateZ="100" className="w-full mt-4">
+                        <Image
+                          src={item.image}
+                          height={1000}
+                          width={1000}
+                          className="h-44 sm:h-72 md:h-[440px] lg:h-72 w-full object-cover object-center rounded-xl group-hover/card:shadow-xl"
+                          alt={item.title}
+                        />
+                      </CardItem>
+                      <div className="mt-6">
+                        <CardItem
+                          translateZ={20}
+                          target="__blank"
+                          className="px-2 md:px-4 md:py-2 rounded-xl text-xs font-normal dark:text-white flex justify-between"
+                        >
+                          <Link href={item.link}>
+                            <HoverBorderGradient
+                              containerClassName="rounded-full"
+                              as="button"
+                              className="dark:bg-black bg-white text-black dark:text-white flex items-center"
+                            >
+                              <h1 className='font-bold hover:scale-[1.02] text-sm'>getCode →</h1>
+                            </HoverBorderGradient></Link>
+                        </CardItem>
+                      </div>
+                    </CardBody>
+                  </CardContainer>
+                ))
+              ) : ("")
+            )
+          )
         }
       </div>
     </div>
