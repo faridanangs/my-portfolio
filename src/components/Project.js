@@ -13,7 +13,7 @@ import agency from "../../public/projects/agency-project.webp";
 import alQuran from "../../public/projects/alqur'an.webp";
 import dExchange from "../../public/projects/dex.webp";
 import eFizza from "../../public/projects/efizza.webp";
-import eZone from "../../public/projects/ezone.webp";
+import tembeli from "../../public/projects/tembeli.webp";
 import lingkungan from "../../public/projects/lingkungan.webp";
 import dTodo from "../../public/projects/d-todo.webp";
 import socialMedia from "../../public/projects/social-media.webp";
@@ -50,31 +50,31 @@ const Project = () => {
     {
       title: "De-Todo Web-App",
       image: dTodo,
-      link: "https://github.com/faridanangs/dapp-ICO-daulat/blob/main/README.md",
+      link: "https://github.com/faridanangs/todolist-dapp",
     },
     {
       title: "Landing page Web-App",
       image: agency,
-      link: "https://github.com/faridanangs/dapp-ICO-daulat/blob/main/README.md",
-      showDemo: "https://defi-account-tracker.vercel.app/"
+      link: "https://github.com/faridanangs/nextjs-14",
+      showDemo: "https://nextjs-14-hazel.vercel.app/"
     },
     {
       title: "Alqurannte Web-App",
       image: alQuran,
-      link: "https://github.com/faridanangs/dapp-ICO-daulat/blob/main/README.md",
-      showDemo: "https://defi-account-tracker.vercel.app/"
+      link: "https://github.com/faridanangs/quran-kita",
+      showDemo: "https://al-qurankita.vercel.app/"
     },
     {
       title: "E-Pizza Web-App",
       image: eFizza,
-      link: "https://github.com/faridanangs/dapp-ICO-daulat/blob/main/README.md",
-      showDemo: "https://defi-account-tracker.vercel.app/"
+      link: "hhttps://github.com/faridanangs/eccomerce-fizza",
+      showDemo: "https://fizzante.vercel.app/"
     },
     {
       title: "E-Tembeli Web-App",
-      image: eZone,
-      link: "https://github.com/faridanangs/dapp-ICO-daulat/blob/main/README.md",
-      showDemo: "https://defi-account-tracker.vercel.app/"
+      image: tembeli,
+      link: "https://github.com/faridanangs/exemple-ecommerce-redux",
+      showDemo: "https://exemple-ecommerce-redux.vercel.app/"
     },
     {
       title: "Rawat Lingkungan Web-App",
@@ -84,7 +84,7 @@ const Project = () => {
     {
       title: "Fa social media Web-App",
       image: socialMedia,
-      link: "https://github.com/faridanangs/dapp-ICO-daulat/blob/main/README.md",
+      link: "https://github.com/faridanangs/sosial-media-apps",
     },
   ]
   const smartcontracts = [
