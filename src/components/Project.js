@@ -91,10 +91,12 @@ const Project = () => {
     {
       title: "Voting Smart Contract",
       image: voting,
+      link: "https://github.com/faridanangs/smart-contract-voting-app"
     },
     {
       title: "Gasless Transfer Token Smart Contract",
       image: gaslessToken,
+      link: "https://github.com/faridanangs/smart-contract-gaslessTokenTransfer"
     },
     {
       title: "Swap Smart Contract",
