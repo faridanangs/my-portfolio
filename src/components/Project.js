@@ -9,10 +9,10 @@ import Image from "next/image";
 // web2
 import defiIco from "../../public/projects/defi-ico.webp";
 import defiTracker from "../../public/projects/defi-tracker.webp";
-import agency from "../../public/projects/agency-project.webp";
+import agency from "../../public/projects/agency.webp";
 import alQuran from "../../public/projects/alqur'an.webp";
 import dExchange from "../../public/projects/dex.webp";
-import eFizza from "../../public/projects/efizza.webp";
+import eFizza from "../../public/projects/fizza.webp";
 import tembeli from "../../public/projects/tembeli.webp";
 import lingkungan from "../../public/projects/lingkungan.webp";
 import dTodo from "../../public/projects/d-todo.webp";
