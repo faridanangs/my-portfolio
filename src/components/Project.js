@@ -199,13 +199,14 @@ const Project = () => {
                         </HoverBorderGradient></Link>
                       {
                         item.showDemo &&
-                        <HoverBorderGradient
-                          containerClassName="rounded-full"
-                          as="button"
-                          className="dark:bg-black bg-white text-black dark:text-white flex items-center"
-                        >
-                          <h1 className=' font-bold hover:scale-[1.02] text-sm '>showDemo →</h1>
-                        </HoverBorderGradient>
+                        <Link href={item?.showDemo}>
+                          <HoverBorderGradient
+                            containerClassName="rounded-full"
+                            as="button"
+                            className="dark:bg-black bg-white text-black dark:text-white flex items-center"
+                          >
+                            <h1 className=' font-bold hover:scale-[1.02] text-sm '>showDemo →</h1>
+                          </HoverBorderGradient></Link>
                       }
                     </CardItem>
                   </div>
@@ -233,21 +234,21 @@ const Project = () => {
                       />
                     </CardItem>
                     <div className="mt-6">
-                      <CardItem
+                      {item?.link && <CardItem
                         translateZ={20}
                         target="__blank"
                         className="px-2 md:px-4 md:py-2 rounded-xl text-xs font-normal dark:text-white flex justify-between"
                       >
-                        <HoverBorderGradient
+                        <Link href={item?.link}> <HoverBorderGradient
                           containerClassName="rounded-full"
                           as="button"
                           className="dark:bg-black bg-white text-black dark:text-white flex items-center"
                         >
                           <h1 className='font-bold hover:scale-[1.02] text-sm'>getCode →</h1>
-                        </HoverBorderGradient>
+                        </HoverBorderGradient></Link>
                         {
                         }
-                      </CardItem>
+                      </CardItem>}
                     </div>
                   </CardBody>
                 </CardContainer>
@@ -273,20 +274,22 @@ const Project = () => {
                         />
                       </CardItem>
                       <div className="mt-6">
-                        <CardItem
-                          translateZ={20}
-                          target="__blank"
-                          className="px-2 md:px-4 md:py-2 rounded-xl text-xs font-normal dark:text-white flex justify-between"
-                        >
-                          <Link href={item.link}>
-                            <HoverBorderGradient
-                              containerClassName="rounded-full"
-                              as="button"
-                              className="dark:bg-black bg-white text-black dark:text-white flex items-center"
-                            >
-                              <h1 className='font-bold hover:scale-[1.02] text-sm'>getCode →</h1>
-                            </HoverBorderGradient></Link>
-                        </CardItem>
+                        {
+                          item?.link && <CardItem
+                            translateZ={20}
+                            target="__blank"
+                            className="px-2 md:px-4 md:py-2 rounded-xl text-xs font-normal dark:text-white flex justify-between"
+                          >
+                            <Link href={item?.link}>
+                              <HoverBorderGradient
+                                containerClassName="rounded-full"
+                                as="button"
+                                className="dark:bg-black bg-white text-black dark:text-white flex items-center"
+                              >
+                                <h1 className='font-bold hover:scale-[1.02] text-sm'>getCode →</h1>
+                              </HoverBorderGradient></Link>
+                          </CardItem>
+                        }
                       </div>
                     </CardBody>
                   </CardContainer>

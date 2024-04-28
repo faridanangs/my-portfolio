@@ -19,7 +19,7 @@ const HerroSection = () => {
                     assist you in creating the systems you need to enhance your company's or
                     business's profitability.
                 </p>
-                <Link href="mailto:some@gmail.com" className='inline-block '>
+                <Link href="faridanangs11@gmail.com" className='inline-block '>
                     <div>
                         <div className='md:text-3xl text-xl flex gap-2'>
                             <HoverBorderGradient
@@ -37,7 +37,7 @@ const HerroSection = () => {
                 <Image src={myImage} alt='my image' height={250} width={250} priority quality={100} className='object-cover opacity-50 rounded-md lg:w-[20rem]' />
                 <div className="absolute bottom-5 md:bottom-4 left-0">
                     <MovingBorderBtn borderRadius='0.5rem' className="p-2 md:p-3 font-semibold">
-                        <Link href=""><span className='text-xl'>💼</span> Available for Work(CV)</Link>
+                        <Link href="https://drive.google.com/file/d/1M-up5O23twAOqDMim-GAKCHB87POXIcr/view?usp=drive_link"><span className='text-xl'>💼</span> Available for Work(CV)</Link>
                     </MovingBorderBtn>
                 </div>
             </div>
