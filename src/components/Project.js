@@ -27,6 +27,11 @@ import todo from "../../public/projects/smartcontract/todo.webp";
 
 // cli
 import gosimpleconfig from "../../public/projects/cli/gocli.webp"
+import goclitodo from "../../public/projects/cli/goclitodo.webp"
+
+// api
+import newsapi from "../../public/projects/api/newsapi.webp"
+
 
 const Project = () => {
   const [pilihan, setPilihan] = useState('web')
@@ -102,7 +107,7 @@ const Project = () => {
     {
       title: "Swap Smart Contract",
       image: swap,
-      link:"https://github.com/faridanangs/dex-app-swap-token/blob/main/fork/scripts/deploy.js",
+      link: "https://github.com/faridanangs/dex-app-swap-token/blob/main/fork/scripts/deploy.js",
     },
     {
       title: "Exchange Smart Contract",
@@ -119,6 +124,28 @@ const Project = () => {
       title: "Go Simple Cli",
       image: gosimpleconfig,
       link: "https://github.com/faridanangs/go-cli-app",
+    },
+    {
+      title: "Go Cli Todo",
+      image: goclitodo,
+      link: "https://github.com/faridanangs/go-cli-todo",
+    }
+  ]
+  const api = [
+    {
+      title: "News Api",
+      image: newsapi,
+      link: "https://github.com/faridanangs/gofiber-news-api",
+    },
+    {
+      title: "Social Medoa Api",
+      image: newsapi,
+      link: "https://github.com/faridanangs/sosial-media-apps/tree/main/backend-jasangku-Kodu",
+    },
+    {
+      title: "Post & Coment Api",
+      image: newsapi,
+      link: "https://github.com/faridanangs/gifiber-gorm-post-and-comment",
     }
   ]
 
@@ -303,7 +330,47 @@ const Project = () => {
                     </CardBody>
                   </CardContainer>
                 ))
-              ) : ("")
+              ) : (
+                pilihan === "api" && api?.map((item, i) => (
+                  <CardContainer className="inter-var w-full" key={i}>
+                    <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full min-w-[10rem] h-auto rounded-xl border-4 p-6">
+                      <CardItem
+                        translateZ="50"
+                        className="text-xl font-bold text-neutral-600 dark:text-white"
+                      >
+                        {item.title}
+                      </CardItem>
+                      <CardItem translateZ="100" className="w-full mt-4">
+                        <Image
+                          src={item.image}
+                          height={1000}
+                          width={1000}
+                          className="h-44 sm:h-72 md:h-[440px] lg:h-72 w-full object-cover object-center rounded-xl group-hover/card:shadow-xl"
+                          alt={item.title}
+                        />
+                      </CardItem>
+                      <div className="mt-6">
+                        {
+                          item?.link && <CardItem
+                            translateZ={20}
+                            target="__blank"
+                            className="px-2 md:px-4 md:py-2 rounded-xl text-xs font-normal dark:text-white flex justify-between"
+                          >
+                            <Link href={item?.link}>
+                              <HoverBorderGradient
+                                containerClassName="rounded-full"
+                                as="button"
+                                className="dark:bg-black bg-white text-black dark:text-white flex items-center"
+                              >
+                                <h1 className='font-bold hover:scale-[1.02] text-sm'>getCode →</h1>
+                              </HoverBorderGradient></Link>
+                          </CardItem>
+                        }
+                      </div>
+                    </CardBody>
+                  </CardContainer>
+                ))
+              )
             )
           )
         }
