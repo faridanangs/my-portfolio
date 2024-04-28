@@ -19,7 +19,7 @@ const HerroSection = () => {
                     assist you in creating the systems you need to enhance your company's or
                     business's profitability.
                 </p>
-                <Link href="faridanangs11@gmail.com" className='inline-block '>
+                <Link href="mailto:faridanangs11@gmail.com" className='inline-block '>
                     <div>
                         <div className='md:text-3xl text-xl flex gap-2'>
                             <HoverBorderGradient
