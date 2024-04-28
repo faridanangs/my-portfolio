@@ -116,7 +116,7 @@ const Project = () => {
   ]
 
   return (
-    <div className='mt-16'>
+    <div className='mt-16 mb-8'>
       <div className="flex flex-col justify-center items-center">
         <div className='md:text-3xl text-xl flex gap-2'>
           <h1 className={`${fontRobonto.className} font-bold hover:scale-[1.02]`}>Projects</h1> 🧰
