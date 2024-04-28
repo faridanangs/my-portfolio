@@ -45,7 +45,7 @@ const Project = () => {
     {
       title: "De-Exchange Web-App",
       image: dExchange,
-      link: "https://github.com/faridanangs/dapp-ICO-daulat/blob/main/README.md",
+      link: "https://github.com/faridanangs/dex-app-swap-token",
     },
     {
       title: "De-Todo Web-App",
