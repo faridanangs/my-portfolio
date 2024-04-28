@@ -23,6 +23,7 @@ import gaslessToken from "../../public/projects/smartcontract/gaslesstoken.webp"
 import swap from "../../public/projects/smartcontract/swap.webp";
 import voting from "../../public/projects/smartcontract/voting.webp";
 import exchange from "../../public/projects/smartcontract/exchange.webp";
+import todo from "../../public/projects/smartcontract/todo.webp";
 
 // cli
 import gosimpleconfig from "../../public/projects/cli/gocli.webp"
@@ -101,10 +102,16 @@ const Project = () => {
     {
       title: "Swap Smart Contract",
       image: swap,
+      link:"https://github.com/faridanangs/dex-app-swap-token/blob/main/fork/scripts/deploy.js",
     },
     {
       title: "Exchange Smart Contract",
       image: exchange,
+    },
+    {
+      title: "Todo List Smart Contract",
+      image: todo,
+      link: "https://github.com/faridanangs/todolist-dapp"
     },
   ]
   const cli = [
