@@ -14,10 +14,12 @@ const HerroSection = () => {
                     <span className='underline underline-offset-7 decoration-purple-300 bg-clip-text text-transparent bg-gradient-to-r from-purple-200 via-purple-300 to-purple-400 '>I'm Faridanang.</span>
                 </h1>
                 <p className='md:pr-5 lg:max-w-xl max-w-lg text-lg text-gray-400'>
-                    Hello, my name is Farid Anang Samudra,
-                    I am a junior <span className='text-xl font-bold text-white/80'>full-stack web developer</span> and <span className='text-xl font-bold text-white/80'>blockchain developer</span>, I can
-                    assist you in creating the systems you need to enhance your company's or
-                    business's profitability.
+
+Hello, my name is Farid Anang Samudra, I'm from NTB, Lombok-Barat,
+Indonesia. I am a junior  <span className='text-xl font-bold text-white/80'>full-stack web developer</span> and <span className='text-xl font-bold text-white/80'>blockchain developer</span>. I have experience as a Junior Web Developer. I have an
+interest in a career as a Blockchain Developer. I’m a fast learner and
+self-taught. I have learned a lot of new technologies in the past few
+years by myself on the Internet.
                 </p>
                 <Link href="mailto:faridanangs11@gmail.com" className='inline-block '>
                     <div>
@@ -37,7 +39,7 @@ const HerroSection = () => {
                 <Image src={myImage} alt='my image' height={250} width={250} priority quality={100} className='object-cover opacity-70 rounded-md lg:w-[20rem]' />
                 <div className="absolute bottom-5 md:bottom-4 left-0">
                     <MovingBorderBtn borderRadius='0.5rem' className="p-2 md:p-3 font-semibold">
-                        <Link href="https://drive.google.com/file/d/1M-up5O23twAOqDMim-GAKCHB87POXIcr/view?usp=drive_link"><span className='text-xl'>💼</span> Available for Work(CV)</Link>
+                        <Link href="https://drive.google.com/file/d/1UllWlOjd4rpT7VimeWNZvBuVrEPIKXM5/view?usp=sharing"><span className='text-xl'>💼</span> Available for Work(CV)</Link>
                     </MovingBorderBtn>
                 </div>
             </div>
