@@ -7,7 +7,7 @@ const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata = {
   title: "frdanngs",
-  metadataBase: new URL("https://frdanngspolio.vercel.app/"),
+  metadataBase: "https://frdanngspolio.vercel.app",
   authors: {
     name: "Farid Anang Samudra",
   },
@@ -15,12 +15,14 @@ export const metadata = {
 
   openGraph: {
     title: "frdanngs polio",
-    url: "https://frdanngspolio.vercel.app/",
+    url: "https://frdanngspolio.vercel.app",
     description: "Explore my portfolio, I am a Junior Fullstack Developer & Blockchain Developer.",
     images: [
       {
-        url: "../../public/foto-pasdi-wc.webp",
+        url: "https://res.cloudinary.com/detetmaw8/image/upload/v1714376123/pcc5hx0kxjr6vsilqmyn.png",
         alt: "frdanngspolio",
+        width:1400,
+        height: 700,
       },
     ],
     type: "website",
