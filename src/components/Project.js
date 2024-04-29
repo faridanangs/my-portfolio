@@ -138,7 +138,7 @@ const Project = () => {
       link: "https://github.com/faridanangs/gofiber-news-api",
     },
     {
-      title: "Social Medoa Api",
+      title: "Social Media Api",
       image: newsapi,
       link: "https://github.com/faridanangs/sosial-media-apps/tree/main/backend-jasangku-Kodu",
     },
