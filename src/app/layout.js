@@ -16,7 +16,7 @@ export const metadata = {
   openGraph: {
     title: "frdanngs polio",
     url: "https://frdanngspolio.vercel.app/",
-    description: "Explore the portfolio of Farid Anang Samudra, a Junior Fullstack Developer & Blockchain Developer.",
+    description: "Explore my portfolio, I am a Junior Fullstack Developer & Blockchain Developer.",
     images: [
       {
         url: "../../public/foto-pasdi-wc.webp",
@@ -24,7 +24,6 @@ export const metadata = {
       },
     ],
     type: "website",
-    siteName: "frdanngspolio.vercel.app",
   },
   keyword: ["farid", "anangs", "farid anang s", "blockchain", "backend", "frontend", "fullstack"]
 };

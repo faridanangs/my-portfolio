@@ -105,9 +105,9 @@ module.exports = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "move-up": "move-up 1s linear forwards",
-        "move-down": "move-down 1s linear forwards",
-        "move-show": "move-show 1s linear forwards",
+        // "move-up": "move-up 1s linear forwards",
+        // "move-down": "move-down 1s linear forwards",
+        // "move-show": "move-show 1s linear forwards",
       },
     },
   },
