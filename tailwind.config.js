@@ -65,6 +65,34 @@ module.exports = {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
+        "move-up": {
+          from: {
+            transform: "translateY(10px)",
+            opacity: 0,
+          },
+          to: {
+            transform: "translateY(0px)",
+            opacity: 1
+          },
+        },
+        "move-down": {
+          from: {
+            transform: "translateY(-10px)",
+            opacity: 0,
+          },
+          to: {
+            transform: "translateY(0px)",
+            opacity: 1
+          },
+        },
+        "move-show": {
+          from: {
+            opacity: 0,
+          },
+          to: {
+            opacity: 1
+          },
+        },
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
@@ -77,6 +105,9 @@ module.exports = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "move-up": "move-up 1s linear forwards",
+        "move-down": "move-down 1s linear forwards",
+        "move-show": "move-show 1s linear forwards",
       },
     },
   },

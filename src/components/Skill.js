@@ -205,14 +205,14 @@ const Skill = () => {
 
   return (
     <div className='mt-16'>
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center items-center animate-move-down">
         <div className='md:text-3xl text-xl flex gap-2'>
           <h1 className={`${fontRobonto.className} font-bold hover:scale-[1.02]`}>Skills</h1> ⚒️
         </div>
         <div className="md:w-32 w-20 md:h-[6px] h-1 bg-gradient-to-l from-purple-400 via-purple-300 to-purple-500 -translate-x-1 rounded-full"></div>
         <div className="md:w-32 w-20 md:h-[6px] h-1 bg-purple-200 rounded-full translate-x-1"></div>
       </div>
-      <div className='mt-8'>
+      <div className='mt-8 animate-move-show'>
         <div className='flex  md:gap-8 justify-center gap-2 md:justify-normal'>
           <div>
             <HoverBorderGradient
