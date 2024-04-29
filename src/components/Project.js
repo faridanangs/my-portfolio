@@ -166,7 +166,7 @@ const Project = () => {
               as="button"
               className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
             >
-              <h1 onClick={() => setPilihan('web')} className={` ${pilihan === "web" && "text-purple-300"} font-bold hover:scale-[1.02] text-sm `}>Web</h1>
+              <h1 onClick={() => setPilihan('web')} className={` ${pilihan === "web" && "text-purple-300"} font-bold hover:scale-[1.02] text-xs `}>Web</h1>
             </HoverBorderGradient>
           </div>
           <div>
@@ -175,7 +175,7 @@ const Project = () => {
               as="button"
               className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
             >
-              <h1 onClick={() => setPilihan('smart-contract')} className={` ${pilihan === "smart-contract" && "text-purple-300"} font-bold hover:scale-[1.02] text-sm `}>Smart Contract</h1>
+              <h1 onClick={() => setPilihan('smart-contract')} className={` ${pilihan === "smart-contract" && "text-purple-300"} font-bold hover:scale-[1.02] text-xs `}>Smart Contract</h1>
             </HoverBorderGradient>
           </div>
           <div>
@@ -184,7 +184,7 @@ const Project = () => {
               as="button"
               className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
             >
-              <h1 onClick={() => setPilihan('api')} className={` ${pilihan === "api" && "text-purple-300"} font-bold hover:scale-[1.02] text-sm `}>Api</h1>
+              <h1 onClick={() => setPilihan('api')} className={` ${pilihan === "api" && "text-purple-300"} font-bold hover:scale-[1.02] text-xs `}>Api</h1>
             </HoverBorderGradient>
           </div>
           <div>
@@ -193,7 +193,7 @@ const Project = () => {
               as="button"
               className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
             >
-              <h1 onClick={() => setPilihan('cli')} className={`${pilihan === "cli" && "text-purple-300"} font-bold hover:scale-[1.02] text-sm `}>Cli</h1>
+              <h1 onClick={() => setPilihan('cli')} className={`${pilihan === "cli" && "text-purple-300"} font-bold hover:scale-[1.02] text-xs `}>Cli</h1>
             </HoverBorderGradient>
           </div>
         </div>
@@ -203,7 +203,7 @@ const Project = () => {
           pilihan === 'web' ? (
             web?.map((item, i) => (
               <CardContainer className="inter-var w-full" key={i}>
-                <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full min-w-[10rem] h-auto rounded-xl border-4 p-6">
+                <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-purple-300 w-full min-w-[10rem] h-auto rounded-xl border-2 p-6">
                   <CardItem
                     translateZ="50"
                     className="text-xl font-bold text-neutral-600 dark:text-white"
@@ -231,7 +231,7 @@ const Project = () => {
                           as="button"
                           className="dark:bg-black bg-white text-black dark:text-white flex items-center"
                         >
-                          <h1 className='font-bold hover:scale-[1.02] text-sm'>getCode →</h1>
+                          <h1 className='font-bold hover:scale-[1.02] text-xs md:text-sm'>getCode →</h1>
                         </HoverBorderGradient></Link>
                       {
                         item.showDemo &&
@@ -253,7 +253,7 @@ const Project = () => {
             pilihan === "smart-contract" ? (
               smartcontracts?.map((item, i) => (
                 <CardContainer className="inter-var w-full" key={i}>
-                  <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full min-w-[10rem] h-auto rounded-xl border-4 p-6">
+                  <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-purple-300 w-full min-w-[10rem] h-auto rounded-xl border-2 p-6">
                     <CardItem
                       translateZ="50"
                       className="text-xl font-bold text-neutral-600 dark:text-white"
@@ -280,7 +280,7 @@ const Project = () => {
                           as="button"
                           className="dark:bg-black bg-white text-black dark:text-white flex items-center"
                         >
-                          <h1 className='font-bold hover:scale-[1.02] text-sm'>getCode →</h1>
+                          <h1 className='font-bold hover:scale-[1.02] text-xs md:text-sm'>getCode →</h1>
                         </HoverBorderGradient></Link>
                         {
                         }
@@ -293,7 +293,7 @@ const Project = () => {
               pilihan === "cli" ? (
                 cli?.map((item, i) => (
                   <CardContainer className="inter-var w-full" key={i}>
-                    <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full min-w-[10rem] h-auto rounded-xl border-4 p-6">
+                    <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-purple-300 w-full min-w-[10rem] h-auto rounded-xl border-2 p-6">
                       <CardItem
                         translateZ="50"
                         className="text-xl font-bold text-neutral-600 dark:text-white"
@@ -322,7 +322,7 @@ const Project = () => {
                                 as="button"
                                 className="dark:bg-black bg-white text-black dark:text-white flex items-center"
                               >
-                                <h1 className='font-bold hover:scale-[1.02] text-sm'>getCode →</h1>
+                                <h1 className='font-bold hover:scale-[1.02] text-xs md:text-sm'>getCode →</h1>
                               </HoverBorderGradient></Link>
                           </CardItem>
                         }
@@ -333,7 +333,7 @@ const Project = () => {
               ) : (
                 pilihan === "api" && api?.map((item, i) => (
                   <CardContainer className="inter-var w-full" key={i}>
-                    <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full min-w-[10rem] h-auto rounded-xl border-4 p-6">
+                    <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-purple-300 w-full min-w-[10rem] h-auto rounded-xl border-2 p-6">
                       <CardItem
                         translateZ="50"
                         className="text-xl font-bold text-neutral-600 dark:text-white"
@@ -362,7 +362,7 @@ const Project = () => {
                                 as="button"
                                 className="dark:bg-black bg-white text-black dark:text-white flex items-center"
                               >
-                                <h1 className='font-bold hover:scale-[1.02] text-sm'>getCode →</h1>
+                                <h1 className='font-bold hover:scale-[1.02] text-xs md:text-sm'>getCode →</h1>
                               </HoverBorderGradient></Link>
                           </CardItem>
                         }
