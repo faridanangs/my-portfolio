@@ -40,7 +40,7 @@ const Project = () => {
     {
       title: "DeFi-App Ico",
       image: defiIco,
-      link: "https://github.com/faridanangs/dapp-ICO-daulat/blob/main/README.md",
+      link: "https://github.com/faridanangs/dapp-ICO-daulat",
     },
     {
       title: "DeFi-App Tracker Account",
