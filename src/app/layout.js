@@ -1,12 +1,11 @@
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
-import image from "../../public/foto-pasdi-wc.webp"
 
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "frdanngs",
+  title: "FaridAnangSamudra 🤵🏽",
   metadataBase: "https://frdanngspolio.vercel.app",
   authors: {
     name: "Farid Anang Samudra",
