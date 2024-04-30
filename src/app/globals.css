@@ -78,18 +78,26 @@
   .hand{
     animation: handWave 2s infinite;
     display: inline-block;
+    margin-left: -15px;
   }
 
   @keyframes handWave {
     0% {
-      transform: translate(10px, -5px) rotate(30deg);
+      transform: translate(10px, -5px) rotate(10deg);
     }
     50% {
-      transform: translate(-10px, 5px) rotate(-30deg);
+      transform: translate(0px, 0px) rotate(-10deg);
       
     }
     100% {
-      transform: translate(10px, -5px) rotate(30deg);
+      transform: translate(10px, -5px) rotate(10deg);
 
     }
+  }
+
+  .custom-underline {
+    /* text-decoration: underline; */
+    text-decoration: underline;
+    /* text-decoration-thickness: 1em; Sesuaikan dengan keinginan Anda */
+    /* text-underline-offset: 0.2em; Jika diperlukan, sesuaikan offsetnya */
   }
