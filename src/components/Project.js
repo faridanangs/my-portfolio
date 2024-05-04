@@ -17,6 +17,7 @@ import tembeli from "../../public/projects/tembeli.webp";
 import lingkungan from "../../public/projects/lingkungan.webp";
 import dTodo from "../../public/projects/d-todo.webp";
 import socialMedia from "../../public/projects/social-media.webp";
+import nft from "../../public/projects/nft.webp"
 
 // web3
 import gaslessToken from "../../public/projects/smartcontract/gaslesstoken.webp";
@@ -37,6 +38,11 @@ const Project = () => {
   const [pilihan, setPilihan] = useState('web')
 
   const web = [
+    {
+      title: "Dapp Nft MarketPlace",
+      image: nft,
+      link: "https://github.com/faridanangs/nft-project-dlt"
+    },
     {
       title: "DeFi-App Ico",
       image: defiIco,
