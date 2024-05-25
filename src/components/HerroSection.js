@@ -14,12 +14,9 @@ const HerroSection = () => {
                     <span className='underline underline-offset-[3px] md:underline-offset-[4px] lg:underline-offset-[6px] decoration-purple-300 bg-clip-text text-transparent bg-gradient-to-r from-purple-200 via-purple-300 to-purple-400 '>I'm Faridanang</span>
                 </h1>
                 <p className='md:pr-5 lg:max-w-xl max-w-lg text-lg text-gray-400 px-1 md:px-0'>
-
-                    Hello, my name is Farid Anang Samudra, I'm from NTB, Lombok-Barat,
-                    Indonesia. I am a junior  <span className='text-xl font-bold text-white/80'>full-stack web developer</span> and <span className='text-xl font-bold text-white/80'>blockchain developer</span>. I have experience as a Junior Web Developer. I have an
-                    interest in a career as a Blockchain Developer. I’m a fast learner and
-                    self-taught. I have learned a lot of new technologies in the past few
-                    years by myself on the Internet.
+                Hello, my name is Farid Anang Samudra, I'm from NTB, Lombok-Barat,
+                Indonesia. I am a <span className='text-xl font-bold text-white/80'>Full-Stack Web Developer</span> and <span className='text-xl font-bold text-white/80'>Blockchain Developer</span>.
+                Building scalable web apps and secure blockchain solutions. Code innovator, problem solver, tech enthusiast. Let's connect!
                 </p>
                 <Link href="mailto:faridanangs11@gmail.com" className='inline-block '>
                     <div>
