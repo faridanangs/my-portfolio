@@ -18,6 +18,8 @@ import lingkungan from "../../public/projects/lingkungan.webp";
 import dTodo from "../../public/projects/d-todo.webp";
 import socialMedia from "../../public/projects/social-media.webp";
 import nft from "../../public/projects/nft.webp"
+import rainbowWallet from "../../public/projects/ranbow.webp";
+import ruish from "../../public/projects/ruish.webp";
 
 // web3
 import gaslessToken from "../../public/projects/smartcontract/gaslesstoken.webp";
@@ -25,6 +27,12 @@ import swap from "../../public/projects/smartcontract/swap.webp";
 import voting from "../../public/projects/smartcontract/voting.webp";
 import exchange from "../../public/projects/smartcontract/exchange.webp";
 import todo from "../../public/projects/smartcontract/todo.webp";
+import MulswapToken from "../../public/projects/smartcontract/swap-multiple-token.webp";
+
+
+
+
+
 
 // cli
 import gosimpleconfig from "../../public/projects/cli/gocli.webp"
@@ -39,7 +47,17 @@ const Project = () => {
 
   const web = [
     {
-      title: "Dapp Nft MarketPlace",
+      title: "Ruish-Nft MarketPlace",
+      image: ruish,
+      link: "https://github.com/faridanangs/ruish-nfts"
+    },
+    {
+      title: "Web3 Rainbow-Wallet",
+      image: rainbowWallet,
+      link: "https://github.com/faridanangs/learn-rainbow-wallet"
+    },
+    {
+      title: "Dapp Nft Minting",
       image: nft,
       link: "https://github.com/faridanangs/nft-project-dlt"
     },
@@ -104,6 +122,11 @@ const Project = () => {
       title: "Voting Smart Contract",
       image: voting,
       link: "https://github.com/faridanangs/smart-contract-voting-app"
+    },
+    {
+      title: "Multiple Swap Token Smart Contract",
+      image: MulswapToken,
+      link: "https://github.com/faridanangs/swap-token-marketplace/tree/main/deploys"
     },
     {
       title: "Gasless Transfer Token Smart Contract",

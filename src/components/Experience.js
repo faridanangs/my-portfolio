@@ -1,9 +1,7 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "@/components/ui/tracing-beam";
-import imageLol from "../../public/foto-pasdi-wc.webp"
 import { fontRobonto } from "./Foonts";
 
 export function Experince() {
