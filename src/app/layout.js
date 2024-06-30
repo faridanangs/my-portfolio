@@ -13,12 +13,12 @@ export const metadata = {
   description: "Junior Fullstack Web & Blockchain Developer showcasing skills in frontend, backend, and blockchain development.",
 
   openGraph: {
-    title: "frdanngs polio",
+    title: "farid anang samudra",
     url: "https://frdanngspolio.vercel.app",
     description: "Explore my portfolio, I am a Junior Fullstack Developer & Blockchain Developer.",
     images: [
       {
-        url: "https://res.cloudinary.com/detetmaw8/image/upload/v1714376123/pcc5hx0kxjr6vsilqmyn.png",
+        url: "https://raw.githubusercontent.com/faridanangs/my-portfolio/main/public/myfoto.webp",
         alt: "frdanngspolio",
         width:1400,
         height: 700,
