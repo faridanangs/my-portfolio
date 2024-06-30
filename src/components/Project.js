@@ -20,6 +20,8 @@ import socialMedia from "../../public/projects/social-media.webp";
 import nft from "../../public/projects/nft.webp"
 import rainbowWallet from "../../public/projects/ranbow.webp";
 import ruish from "../../public/projects/ruish.webp";
+import tokenMarketplace from "../../public/projects/token-marketplace.png";
+
 
 // web3
 import gaslessToken from "../../public/projects/smartcontract/gaslesstoken.webp";
@@ -27,7 +29,7 @@ import swap from "../../public/projects/smartcontract/swap.webp";
 import voting from "../../public/projects/smartcontract/voting.webp";
 import exchange from "../../public/projects/smartcontract/exchange.webp";
 import todo from "../../public/projects/smartcontract/todo.webp";
-import MulswapToken from "../../public/projects/smartcontract/swap-multiple-token.webp";
+import MulswapToken from "../../public/projects/smartcontract/dex-token-marketplace.png";
 
 
 
@@ -50,6 +52,11 @@ const Project = () => {
       title: "Ruish-Nft MarketPlace",
       image: ruish,
       link: "https://github.com/faridanangs/ruish-nfts"
+    },
+    {
+      title: "Dex Token MarketPlace",
+      image: tokenMarketplace,
+      link: "https://github.com/faridanangs/swap-token-marketplace"
     },
     {
       title: "Web3 Rainbow-Wallet",

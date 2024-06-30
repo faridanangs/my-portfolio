@@ -44,6 +44,8 @@ import Uniswap from "../../public/skils/web3/uniswap.webp"
 import Ethers from "../../public/skils/web3/ethers.svg"
 import Metamask from "../../public/skils/web3/metamask.svg"
 import Chainlink from "../../public/skils/web3/chainlink.svg"
+import Rainbow from "../../public/skils/web3/rainbow-wallt.jpeg"
+import Wagmi from "../../public/skils/web3/wagmi.png"
 
 
 
@@ -200,6 +202,14 @@ const Skill = () => {
     {
       text: "Chainlink",
       icon: Chainlink,
+    },
+    {
+      text: "Rainbow",
+      icon: Rainbow,
+    },
+    {
+      text: "Wagmi",
+      icon: Wagmi,
     },
   ]
 
