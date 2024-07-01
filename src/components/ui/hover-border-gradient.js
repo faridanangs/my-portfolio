@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 
 export function HoverBorderGradient({
+  arrow,
   children,
   containerClassName,
   className,
@@ -58,7 +59,10 @@ export function HoverBorderGradient({
       {...props}
     >
       <div
-        className={cn(
+        className={arrow ? cn(
+          "w-auto text-white z-10 bg-black rounded-[inherit]",
+          className
+        ) : cn(
           "w-auto text-white z-10 bg-black md:px-4 px-3 py-1 md:py-2 rounded-[inherit]",
           className
         )}
