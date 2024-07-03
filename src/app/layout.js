@@ -18,7 +18,7 @@ export const metadata = {
     description: "Explore my portfolio, I am a Junior Fullstack Developer & Blockchain Developer.",
     images: [
       {
-        url: "https://console.cloudinary.com/pm/c-aa6627505846f4feef24afd9b9a0d1/media-explorer?assetId=b915fca7114fa69e5c52f42e22a9bec5",
+        url: "https://res.cloudinary.com/detetmaw8/image/upload/v1720009405/g1lls6hukdyyh7cn5aqp.png",
         alt: "frdanngspolio",
         width:1400,
         height: 700,
