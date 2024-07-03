@@ -4,7 +4,7 @@ import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "@/components/ui/tracing-beam";
 import { fontRobonto } from "./Foonts";
 
-export function Experience() {  // Ubah nama komponen menjadi Experience
+export function Experience() {
     return (
         <div className='mt-16'>
             <div className="flex flex-col justify-center items-center">
@@ -30,7 +30,7 @@ export function Experience() {  // Ubah nama komponen menjadi Experience
                             <h3 className="text-[10px] opacity-70 mb-2 -mt-1">{item?.status}</h3>
                             <div className="text-sm prose prose-sm dark:prose-invert flex flex-col gap-2">
                                 {item.description !== undefined && item.description.map((i, idx) => (
-                                    <div className="flex items-start gap-2">
+                                    <div className="flex items-start gap-2" key={idx}>
                                         <div className="bg-white max-h-[0.35rem] min-h-[0.35rem] mt-[6px] max-w-[0.35rem] min-w-[0.35rem] bg-gradient-to-br from-slate-300 via-slate-400 to-slate-700" />
                                         <p key={idx} className="text-xs">{i}</p>
                                     </div>
