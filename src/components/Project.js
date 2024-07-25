@@ -46,12 +46,22 @@ import newsapi from "../../public/projects/api/newsapi.webp"
 
 const web = [
   {
-    title: "Dapp Ruish Nft MarketPlace",
+    title: "DAPP IDMedRec With Blockchain",
+    image: "/projects/idmedrec-web.png",
+    link: "https://github.com/faridanangs/idmedrec"
+  },
+  {
+    title: "DAPP Ruish Nft MarketPlace",
     image: ruish,
     link: "https://github.com/faridanangs/ruish-nfts"
   },
   {
-    title: "Dex App Token MarketPlace",
+    title: "DEFI Staking Token",
+    image: "/projects/staking-token-web.png",
+    link: "https://github.com/faridanangs/dapp-staking-token"
+  },
+  {
+    title: "DEX Token MarketPlace",
     image: tokenMarketplace,
     link: "https://github.com/faridanangs/swap-token-marketplace"
   },
@@ -61,28 +71,28 @@ const web = [
     link: "https://github.com/faridanangs/learn-rainbow-wallet"
   },
   {
-    title: "Dapp Nft Minting",
+    title: "DAPP Nft Minting",
     image: nft,
     link: "https://github.com/faridanangs/nft-project-dlt"
   },
   {
-    title: "DeFi App Ico",
+    title: "DEFI Ico",
     image: defiIco,
     link: "https://github.com/faridanangs/dapp-ICO-daulat",
   },
   {
-    title: "DeFi App Tracker Account",
+    title: "DEFI Tracker Account",
     image: defiTracker,
     link: "https://github.com/faridanangs/defi-account-tracker",
     showDemo: "https://defi-account-tracker.vercel.app/"
   },
   {
-    title: "Dex App Crypto & Token",
+    title: "DEX Crypto & Token",
     image: dExchange,
     link: "https://github.com/faridanangs/dex-app-swap-token",
   },
   {
-    title: "Dapp Todo List",
+    title: "DAPP Todo List",
     image: dTodo,
     link: "https://github.com/faridanangs/todolist-dapp",
   },
@@ -126,6 +136,11 @@ const smartcontracts = [
     title: "Voting Smart Contract",
     image: voting,
     link: "https://github.com/faridanangs/smart-contract-voting-app"
+  },
+  {
+    title: "Medical Record Smart Contract",
+    image: "/projects/smartcontract/idmedrec.png",
+    link: "https://github.com/faridanangs/idmedrec"
   },
   {
     title: "Multiple Swap Token Smart Contract",
