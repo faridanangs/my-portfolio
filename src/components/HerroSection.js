@@ -13,10 +13,9 @@ const HerroSection = () => {
                 <h1 className='text-3xl lg:text-6xl md:text-4xl font-bold mt-4'>Nice to meet you, <span className='hand'>👋</span><br />
                     <span className='underline underline-offset-[3px] md:underline-offset-[4px] lg:underline-offset-[6px] decoration-purple-300 bg-clip-text text-transparent bg-gradient-to-r from-purple-200 via-purple-300 to-purple-400 '>I'm Faridanang</span>
                 </h1>
-                <p className='md:pr-5 lg:max-w-xl max-w-lg text-lg text-gray-400 px-1 md:px-0'>
-                Hello, my name is Farid Anang Samudra, I'm from NTB, Lombok-Barat,
-                Indonesia. I am a <span className='text-xl font-bold text-white/80'>Full-Stack Web Developer</span> and <span className='text-xl font-bold text-white/80'>Blockchain Developer</span>.
-                Building scalable web apps and secure blockchain solutions. Code innovator, problem solver, tech enthusiast. Let's connect!
+                <p className='md:pr-6 lg:max-w-xl max-w-lg text-lg text-gray-400 px-5  text-justify md:px-0'>
+                    Hello! I'm Farid Anang Samudra from Lombok Barat, NTB, Indonesia. As a passionate <span className='text-xl font-bold text-white/80'>Full-Stack Web2</span> and <span className='text-xl font-bold text-white/80'>Fullstack Web3 Developer</span>, I specialize in building scalable web applications and secure blockchain solutions. My expertise spans across Web2 and Web3 technologies, where I constantly innovate, solve complex problems, and embrace the latest tech trends.
+
                 </p>
                 <Link href="mailto:faridanangs11@gmail.com" className='inline-block '>
                     <div>
