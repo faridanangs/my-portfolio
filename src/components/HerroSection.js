@@ -35,7 +35,7 @@ const HerroSection = () => {
                 <Image src={myImage} alt='my image' height={250} width={250} priority quality={100} className='object-cover opacity-70 rounded-md lg:w-[20rem]' />
                 <div className="absolute bottom-3 -left-8 md:bottom-4 md:left-0">
                     <MovingBorderBtn borderRadius='0.5rem' className="p-1 px-2 md:p-1 md:px-2 font-semibold">
-                        <Link href="https://drive.google.com/file/d/1rkpiWxj1xRc_0Vhans-eWl6qDjfLNCpp/view?usp=sharing"><span className='text-xl'>💼</span> View My CV</Link>
+                        <Link href="https://drive.google.com/file/d/1Q5VHIcpsP_V6aMgCE2WV1w9R3aFgqo9Y/view?usp=sharing"><span className='text-xl'>💼</span> View My CV</Link>
                     </MovingBorderBtn>
                 </div>
             </div>
