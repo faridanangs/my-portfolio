@@ -39,32 +39,51 @@ export const web = [
   {
     title: "DAPP IDMedRec With Blockchain",
     image: "/projects/idmedrec-web.png",
-    link: "https://github.com/faridanangs/idmedrec"
+    link: "https://github.com/faridanangs/idmedrec",
+    detail: `
+    IDMedRec is a cutting-edge medical record application that simplifies and secures patient data management. It features robust authentication for secure login and registration, allows doctors to create tamper-proof medical records, and provides intuitive search and access for both patients and doctors. Users have full control over their data with user-friendly privacy settings, and the application is accessible globally at any time, offering a convenient solution for managing medical records.
+    `,
+    tech: "Solidity, Next.js, Tailwind-css, Polygon-Amoy, IPFS, Hardhat, NextUI, AceternityUI",
+    showDemo: "https://youtu.be/7VJD4LFbP-Q"
   },
   {
-    title: "DAPP Buchains Wallet",
+    title: "Buchains Crypto Wallet",
     image: "/projects/crypto-wallet.png",
-    link: "https://github.com/faridanangs/web3-crypto-wallet"
+    link: "https://github.com/faridanangs/web3-crypto-wallet",
+    detail: "Buchain Wallet is a crypto wallet application designed to securely and efficiently store and manage your cryptocurrency assets. Additionally, it includes a Chrome extension that enhances usability, allowing you to seamlessly interact with your crypto assets directly from your browser.",
+    tech: "Golang, Fiber, Gorm, PostgreSQL, Docker, HTML, css, JavaScript",
+    showDemo: "https://www.youtube.com/watch?v=GAOIwURUon8"
   },
   {
     title: "DAPP Ruish Nft MarketPlace",
     image: ruish,
-    link: "https://github.com/faridanangs/ruish-nfts"
+    link: "https://github.com/faridanangs/ruish-nfts",
+    detail: "Ruish NFT is an NFT marketplace where users can buy, mint, and transfer NFTs. Additionally, it provides a feature to view the transaction history of NFTs, offering a comprehensive overview of each asset's provenance and activity.",
+    tech: "Solidity, Next.js, Tailwind-css, IPFS, Hardhat, AceternityUI, Wagmi, Rainbow-Wallet, Ethers.js",
+    showDemo: "https://www.facebook.com/Tempnion7/videos/431584789655607"
   },
   {
     title: "DEFI Staking Token",
     image: "/projects/staking-token-web.png",
-    link: "https://github.com/faridanangs/dapp-staking-token"
+    link: "https://github.com/faridanangs/dapp-staking-token",
+    detail: "This token staking application allows users to stake their tokens with various options for staking durations. Each staking period offers a different Annual Percentage Yield (APY), and there are early withdrawal fees that apply if tokens are unstaked before the end of the chosen staking period. Users can view both the APY and any associated early withdrawal fees before committing to a staking option.",
+    tech: "Solidity, Javascript, HTML, Hardhat, css, Ethers.js, Polygon-Amoy",
+    showDemo: "https://www.facebook.com/Tempnion7/videos/1418610385516470"
   },
   {
     title: "DEX Token MarketPlace",
     image: tokenMarketplace,
-    link: "https://github.com/faridanangs/swap-token-marketplace"
+    link: "https://github.com/faridanangs/swap-token-marketplace",
+    detail: "Dex Token Marketplace is a platform that enables users to exchange tokens for other tokens, tokens for ETH, and ETH for tokens. The website provides robust security measures to ensure the protection of your privacy and data throughout the transaction process.",
+    tech: "Solidity, Next.js, Hardhat, Tailwind-css, Ethers.js, Ganache, Wagmi, Rainbow-Wallet, NextUI",
+    showDemo: "https://www.facebook.com/Tempnion7/videos/839697601020253"
   },
   {
     title: "Web3 Rainbow-Wallet",
     image: rainbowWallet,
-    link: "https://github.com/faridanangs/learn-rainbow-wallet"
+    link: "https://github.com/faridanangs/learn-rainbow-wallet",
+    detail: "Rainbow Wallet is a user-friendly and visually appealing Ethereum wallet designed to help users easily manage their digital assets. It's particularly popular among those new to the Ethereum ecosystem due to its intuitive interface and features that cater to both beginners and advanced users",
+    tech: "Wagmi, Rainbow-Wallet"
   },
   {
     title: "DAPP Nft Minting",
@@ -75,12 +94,15 @@ export const web = [
     title: "DEFI Ico",
     image: defiIco,
     link: "https://github.com/faridanangs/dapp-ICO-daulat",
+    detail: "A dApp-ICO is a decentralized application designed to facilitate the process of conducting an Initial Coin Offering (ICO) on a blockchain network. ICOs are a popular method for blockchain projects to raise funds by issuing and selling new tokens to investors.",
+    tech: "Solidity, Next.js, Hardhat, Ganache, Ether.js, css"
   },
   {
     title: "DEFI Tracker Account",
     image: defiTracker,
     link: "https://github.com/faridanangs/defi-account-tracker",
-    showDemo: "https://defi-account-tracker.vercel.app/"
+    detail: "The DeFi Tracker Account on the Ethereum network is a comprehensive tool designed to monitor and manage your decentralized finance (DeFi) activities. This account provides users with real-time insights into their DeFi investments, including detailed tracking of token balances, yield farming, liquidity provision, and staking positions. It also offers analytics on historical performance, transaction history, and current asset allocation, enabling users to make informed decisions and optimize their DeFi strategies. With robust security features and seamless integration with Ethereum-based DeFi protocols, the DeFi Tracker Account ensures a secure and user-friendly experience for managing your DeFi portfolio.",
+    tech: "Next.js, Ether.js, css, Infura, EtherScan, Axois"
   },
   {
     title: "DEX Crypto & Token",
@@ -90,7 +112,9 @@ export const web = [
   {
     title: "DAPP Todo List",
     image: dTodo,
+    detail: "DAPP Todo List is a decentralized application built on the Ethereum blockchain for managing tasks. It uses smart contracts to securely store and manage tasks, with all changes recorded on the blockchain. Developed with Ganache, it allows for quick testing and deployment of smart contracts, providing a reliable and transparent way to track your to-dos.",
     link: "https://github.com/faridanangs/todolist-dapp",
+    tech: "Solidity, Ganache, Ethers.js, Next.js, Tailwind-css, NextUI"
   },
   {
     title: "Landing page",
@@ -102,6 +126,8 @@ export const web = [
     title: "Alqurannte Web",
     image: alQuran,
     link: "https://github.com/faridanangs/quran-kita",
+    detail: "Alqurannte Web is a dynamic web application developed using ReactJS.",
+    tech: "React, Redux-Toolkit, Axios, React-Router, Tailwind-css",
     showDemo: "https://al-qurankita.vercel.app/"
   },
   {
@@ -168,6 +194,8 @@ export const cli = [
     title: "Go Config Folder Cli",
     image: gosimpleconfig,
     link: "https://github.com/faridanangs/go-cli-app",
+    detail: "This CLI application is designed to automate the creation and configuration of folders and files in Golang, simplifying the development process.",
+    tech: "Bash Shell, HTML"
   },
   {
     title: "Go Todo List Cli",
