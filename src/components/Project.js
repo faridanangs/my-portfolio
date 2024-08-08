@@ -69,7 +69,7 @@ const Project = () => {
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-1 animate-move-show">
         {
-          data?.slice(0, 100).map((item, i) => (
+          data?.slice(0, show).map((item, i) => (
             <CardContainer className="inter-var w-full" key={i}>
               <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-purple-300 w-full min-w-[10rem] h-auto rounded-xl border-2 p-6">
                 <CardItem
