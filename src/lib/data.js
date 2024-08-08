@@ -42,7 +42,7 @@ export const web = [
     link: "https://github.com/faridanangs/idmedrec"
   },
   {
-    title: "DAPP Buchains Wallet",
+    title: "Buchains Crypto Wallet",
     image: "/projects/crypto-wallet.png",
     link: "https://github.com/faridanangs/web3-crypto-wallet"
   },
