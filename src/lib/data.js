@@ -55,7 +55,7 @@ export const web = [
     showDemo: "https://www.youtube.com/watch?v=GAOIwURUon8"
   },
   {
-    title: "DAPP Seta Cave",
+    title: "DAPP Zeta Cave",
     image: zetacave,
    link: "https://github.com/faridanangs",
     detail: "This project is a decentralized file storage platform powered by IPFS, allowing users to store and access files securely, censorship-resistant, and without relying on centralized servers. Data is distributed across a peer-to-peer network, giving users full control over their files.",
