@@ -13,6 +13,7 @@ import nft from "../../public/projects/nft.webp"
 import rainbowWallet from "../../public/projects/ranbow.webp";
 import ruish from "../../public/projects/ruish.webp";
 import tokenMarketplace from "../../public/projects/token-marketplace.png";
+import zetacave from "../../public/projects/zetacave-portfolio.png";
 
 
 // web3
@@ -22,7 +23,6 @@ import voting from "../../public/projects/smartcontract/voting.webp";
 import exchange from "../../public/projects/smartcontract/exchange.webp";
 import todo from "../../public/projects/smartcontract/todo.webp";
 import MulswapToken from "../../public/projects/smartcontract/dex-token-marketplace.png";
-
 
 
 
@@ -55,7 +55,14 @@ export const web = [
     showDemo: "https://www.youtube.com/watch?v=GAOIwURUon8"
   },
   {
-    title: "DAPP Ruish Nft MarketPlace",
+    title: "DAPP Seta Cave",
+    image: zetacave,
+   link: "https://github.com/faridanangs",
+    detail: "This project is a decentralized file storage platform powered by IPFS, allowing users to store and access files securely, censorship-resistant, and without relying on centralized servers. Data is distributed across a peer-to-peer network, giving users full control over their files.",
+    tech: "Solidity, Next.js, Tailwind-css, IPFS, AceternityUI, Wagmi, Rainbow-Wallet, Ethers.js",
+  },
+  {
+    title: "Ruish Nft MarketPlace",
     image: ruish,
     link: "https://github.com/faridanangs/ruish-nfts",
     detail: "Ruish NFT is an NFT marketplace where users can buy, mint, and transfer NFTs. Additionally, it provides a feature to view the transaction history of NFTs, offering a comprehensive overview of each asset's provenance and activity.",
