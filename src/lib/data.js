@@ -44,7 +44,7 @@ export const web = [
     IDMedRec is a cutting-edge medical record application that simplifies and secures patient data management. It features robust authentication for secure login and registration, allows doctors to create tamper-proof medical records, and provides intuitive search and access for both patients and doctors. Users have full control over their data with user-friendly privacy settings, and the application is accessible globally at any time, offering a convenient solution for managing medical records.
     `,
     tech: "Solidity, Next.js, Tailwind-css, Polygon-Amoy, IPFS, Hardhat, NextUI, AceternityUI",
-    showDemo: "https://youtu.be/7VJD4LFbP-Q"
+    showDemo: "https://id-medrec.vercel.app"
   },
   {
     title: "Buchains Crypto Wallet",
