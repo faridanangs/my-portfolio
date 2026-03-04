@@ -1,5 +1,6 @@
 // web2
 import defiIco from "../../public/projects/defi-ico.webp";
+import deltaCivitas from "../../public/projects/delta-civitas.jpeg";
 import defiTracker from "../../public/projects/defi-tracker.webp";
 import agency from "../../public/projects/agency.webp";
 import alQuran from "../../public/projects/alquran.png";
@@ -53,6 +54,14 @@ export const web = [
     detail: "Buchain Wallet is a crypto wallet application designed to securely and efficiently store and manage your cryptocurrency assets. Additionally, it includes a Chrome extension that enhances usability, allowing you to seamlessly interact with your crypto assets directly from your browser.",
     tech: "Golang, Fiber, Gorm, PostgreSQL, Docker, HTML, css, JavaScript",
     showDemo: "https://www.youtube.com/watch?v=GAOIwURUon8"
+  },
+  {
+    title: "Delta Civitas",
+    image: deltaCivitas,
+    link: "https://github.com/faridanangs/gamatika-25",
+    detail: "Delta Civitas is a digital ecosystem specifically designed to address the unique needs of Faculty of Mathematics and Natural Sciences (MIPA) students. We understand the challenges of accessing academic resources, building professional networks, and career preparation. Consequently, Delta Civitas serves as a centralized platform that integrates discussion forums, digital libraries, career development tools, and Web3 innovations to support students throughout their academic and professional journeys. While the project is initially launching at the University of Mataram, our long-term vision is to empower MIPA students across all of Indonesia.",
+    tech: "Solidity, Next.js, Tailwind-css, IPFS, AceternityUI, Wagmi, Rainbow-Wallet, Ethers.js",
+    showDemo: "https://delta-civitas.vercel.app/"
   },
   {
     title: "DAPP Zeta Cave",

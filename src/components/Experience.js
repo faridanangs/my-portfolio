@@ -22,20 +22,24 @@ export function Experience() {
                                 <h1 className={`${twMerge("text-xl md:text-3xl lg:text-4xl")} ${fontRobonto.className}`}>
                                     {item.title}
                                 </h1>
-                                <p className="text-xs opacity-85">{item.time}</p>
                             </div>
-                            <h2 className="bg-black text-white rounded-full text-sm md:text-lg lg:text-xl">
-                                {item.badge}
-                            </h2>
-                            <h3 className="text-[10px] opacity-70 mb-2 -mt-1">{item?.status}</h3>
-                            <div className="text-sm prose prose-sm dark:prose-invert flex flex-col gap-2">
-                                {item.description !== undefined && item.description.map((i, idx) => (
-                                    <div className="flex items-start gap-2" key={idx}>
-                                        <div className="bg-white max-h-[0.35rem] min-h-[0.35rem] mt-[6px] max-w-[0.35rem] min-w-[0.35rem] bg-gradient-to-br from-slate-300 via-slate-400 to-slate-700" />
-                                        <p key={idx} className="text-xs">{i}</p>
+                            {item.tier.map((item, index) => (
+                                <div key={index}>
+                                    <h2 className="bg-black text-white rounded-full text-sm md:text-lg lg:text-xl">
+                                        {item.badge}
+                                    </h2>
+                                    <p className="text-xs opacity-85">{item.time}</p>
+                                    <h3 className="text-[10px] opacity-70 mb-2 -mt-1">{item?.status}</h3>
+                                    <div className="text-sm prose prose-sm dark:prose-invert flex flex-col gap-2">
+                                        {item.description !== undefined && item.description.map((i, idx) => (
+                                            <div className="flex items-start gap-2" key={idx}>
+                                                <div className="bg-white max-h-[0.35rem] min-h-[0.35rem] mt-[6px] max-w-[0.35rem] min-w-[0.35rem] bg-gradient-to-br from-slate-300 via-slate-400 to-slate-700" />
+                                                <p key={idx} className="text-xs">{i}</p>
+                                            </div>
+                                        ))}
                                     </div>
-                                ))}
-                            </div>
+                                </div>
+                            ))}
                         </div>
                     ))}
                 </div>
@@ -47,21 +51,34 @@ export function Experience() {
 const dummyContent = [
     {
         title: "Freelancer",
-        description: [
-            "Resolved technical issues and optimized site performance for better user experience.",
-            "Developed various websites including Social Media Web, DEX, NFT, and Landing Pages.",
-            "Stayed up-to-date with industry trends and technologies to offer cutting-edge solutions."
-        ],
-        time: "2023 - Present",
-        badge: "Full-Stack Web & Blockchain Developer"
+        tier: [
+            {
+                description: [
+                    "Resolved technical issues and optimized site performance for better user experience.",
+                    "Developed various websites including Social Media Web, DEX, NFT, and Landing Pages.",
+                    "Stayed up-to-date with industry trends and technologies to offer cutting-edge solutions."
+                ],
+                time: "2023 - Present",
+                badge: "Full-Stack Web & Blockchain Developer"
+            }
+        ]
     },
     {
         title: "Education",
-        time: "2021 - 2024",
-        badge: "Sman 1 Gunungsari",
-        status: "High School",
-        description: [
-            "Natural Science"
-        ],
-    },
+        tier: [{
+            time: "2021 - 2024",
+            badge: "Sman 1 Gunungsari",
+            status: "High School",
+            description: ["Natural Science"]
+        },
+        {
+            time: "2025 - 2029",
+            badge: "University of Mataram",
+            status: "Undergraduate / Bachelor of Science",
+            description: [
+                "Mathematics"
+            ],
+        }
+        ]
+    }
 ];
