@@ -1,6 +1,6 @@
 // web2
 import defiIco from "../../public/projects/defi-ico.webp";
-import deltaCivitas from "../../public/projects/delta-civitas.jpeg";
+import deltaCivitas from "../../public/projects/delta-civitas.png";
 import defiTracker from "../../public/projects/defi-tracker.webp";
 import agency from "../../public/projects/agency.webp";
 import alQuran from "../../public/projects/alquran.png";
